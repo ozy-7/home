@@ -5,6 +5,7 @@ import Card from './Card';
 import steamLogo from '../assets/images/Steam.png';
 import eaLogo from '../assets/images/EA.webp';
 import instagramLogo from '../assets/images/Instagram.png';
+import spotifyLogo from '../assets/images/Spotify.png';
 
 const DropdownMenu = () => {
     return (
@@ -36,6 +37,13 @@ const DropdownMenu = () => {
                                 link=""
                                 text="/ozy360"
                             />
+                            <Card
+                                logo={spotifyLogo}
+                                title="Spotify"
+                                color="rgba(18, 115, 52, 255)"
+                                link="https://open.spotify.com/user/d1r6o86wwap0c357fvi0801o3?si=6037135b13824e1d"
+                                text=""
+                                ></Card>
                         </div>
                         
                     </ol>
