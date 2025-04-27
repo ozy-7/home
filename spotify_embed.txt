@@ -1,0 +1,23 @@
+      <div className="item2">
+        {/* Spotify Embed Code */}
+        <iframe
+          src="https://open.spotify.com/embed/user/d1r6o86wwap0c357fvi0801o3"
+          width="300"
+          height="380"
+          frameBorder="0"
+          allow="encrypted-media"
+        ></iframe>
+    
+        <iframe 
+          style={{ borderRadius: '12px' }}
+          src="https://open.spotify.com/embed/playlist/3GKt8R1Rbilk3yB0w8yBSX?utm_source=generator" 
+          width="300"
+          height="452"
+          frameBorder="0" 
+          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+        ></iframe>
+
+        <a href="https://open.spotify.com/playlist/3GKt8R1Rbilk3yB0w8yBSX" target="_blank">
+          View Full Playlist on Spotify
+        </a>
+      </div>

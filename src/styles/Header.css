@@ -1,0 +1,39 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, #ed6ea0 0%, #ec8c69 100%);
+    border-radius:0.5rem;
+    text-transform: uppercase;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 100px 0px;
+    box-sizing: border-box;
+    color: rgb(51, 174, 57);
+  }
+
+  .logo h1 {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: -35px;
+    font-size: 150px;
+  }
+  
+  .nav ul {
+    list-style-type:square;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav ul li a {
+    color: rgb(51, 168, 51);
+    text-decoration:none;
+  }
+  
+  .nav ul li a:hover {
+    text-decoration: underline;
+  }
