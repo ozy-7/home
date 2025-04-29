@@ -6,13 +6,14 @@ import steamLogo from '../assets/images/Steam.png';
 import eaLogo from '../assets/images/EA.webp';
 import instagramLogo from '../assets/images/Instagram.png';
 import spotifyLogo from '../assets/images/Spotify.png';
+import linkedinLogo from '../assets/images/Linkedin.png';
 
 const DropdownMenu = () => {
     return (
         <nav className="dropdown-menu">
             <ol>
-                <li className="dropdown-menu-item"><a href="home">Home</a></li>
-                <li className="dropdown-menu-item"><a href="about">About</a></li>
+                <li className="dropdown-menu-item"><a href="/">Home</a></li>
+                <li className="dropdown-menu-item"><a href="/about">About</a></li>
                 <li className="dropdown-menu-item"><a href="social">Social</a>
                     <ol className="dropdown-menu-sub-item">
                         <div className="dropdown-menu-cards">
@@ -44,11 +45,18 @@ const DropdownMenu = () => {
                                 link="https://open.spotify.com/user/d1r6o86wwap0c357fvi0801o3?si=6037135b13824e1d"
                                 text=""
                                 ></Card>
+                            <Card
+                                logo={linkedinLogo}
+                                title="LinkedIn"
+                                color="rgba(46, 123, 160, 255)"
+                                link="https://www.linkedin.com/in/ozan-cengiz/"
+                                text=""
+                            ></Card>
                         </div>
                         
                     </ol>
                     </li>
-                <li className="dropdown-menu-item"><a href="projects">Projects</a></li>
+                <li className="dropdown-menu-item"><a href="/projects">Projects</a></li>
 
             </ol>
         </nav>
