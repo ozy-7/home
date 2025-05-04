@@ -3,10 +3,10 @@ import Header from './components/Header.tsx';
 import  Navbar  from './components/DropdownMenu.tsx';
 
 
-
 function App() {
     return (
-        <div className="App">
+        <div className="min-h-screen flex items-center justify-center">
+
             <Header />
             <Navbar />
 
